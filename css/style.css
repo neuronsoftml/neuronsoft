@@ -6,10 +6,19 @@
     font-family: Roboto-Back; /* Имя шрифта */
     src: url(../fonts/Roboto/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
 }
+@font-face  {
+    font-family: Roboto-Medium; /* Имя шрифта */
+    src: url(../fonts/Roboto/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
+}
+
 a{
     color: #1a1e21;
     text-decoration: none;
 }
+li{
+    list-style-type: none;
+}
+
 .text-lvl-1{
     font-family: Roboto-Back;
     font-size: 3em;
@@ -30,12 +39,55 @@ a{
     font-family: 'Roboto-Light';
     font-size: 2em;
 }
+.p{
+
+}
+.btn-lvl-1{
+    font-family: 'Roboto-Medium';
+    color: #dee2e6;
+    font-size: 1.5em;
+    padding: 10px 10px 10px 10px;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    border-radius: 20px;
+    transition: 1s linear;
+
+}
+.btn-lvl-1:hover{
+    color: #dee2e6;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg,#FC00FF 0%, #00DBDE 100%);
+}
+.social-icon{
+    justify-content: center;
+    font-size: 1.5em;
+    padding: 0px 0px 0px 1em;
+}
+.menu-btn{
+    font-size: 3em;
+    padding-left: 70%;
+    transition: 1s linear;
+}
+.menu-btn{
+    color: #000;
+}
+
+.menu{
+    display: none;
+    height: 50%;
+}
+.menu-links{
+    font-size: 1em;
+    font-family: 'Roboto-Medium';
+}
 .logo{
     color: #1a1e21;
+    font-family: 'Roboto-Back';
+    font-size: 2.5em;
 }
 
 .home{
-    background-image: url("../images/border.jpg");
+    background: no-repeat url("../images/border.jpg");
 }
 
 .banner-content{
@@ -43,9 +95,42 @@ a{
     margin-top: 40%;
 }
 .banner-content-images{
-    margin-top: 20%;
+    margin-top: 40%;
 }
 .banner-content-images img{
     font-size: 50%;
 }
+.info-block{
+    margin-top: 15%;
+    padding-left: 10%;
+    display: flex;
+}
+.title-info{
+    font-size: 2em;
+    font-family: 'Roboto-Medium';
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+}
+.description-info{
+    font-size: 1.4em;
+    font-family: 'Roboto-Light';
+    color: #1a1e21;
+}
 
+/*
+About-me
+ */
+
+.about-me
+{
+    padding-top: 15%
+}
+.img-sfg{
+    font-size: 50%;
+}
+
+.bg-gradient-1{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
