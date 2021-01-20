@@ -18,7 +18,12 @@ a{
 li{
     list-style-type: none;
 }
-
+.line{
+    width: 25%;
+    height: 2px;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
 .text-lvl-1{
     font-family: Roboto-Back;
     font-size: 3em;
@@ -39,17 +44,14 @@ li{
     font-family: 'Roboto-Light';
     font-size: 2em;
 }
-.p{
-
-}
 .btn-lvl-1{
     font-family: 'Roboto-Medium';
     color: #dee2e6;
     font-size: 1.5em;
-    padding: 10px 10px 10px 10px;
+    padding: 15px 10px 15px 10px;
     background-color: #00DBDE;
     background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-    border-radius: 20px;
+    border-radius: 10px;
     transition: 1s linear;
 
 }
@@ -57,6 +59,17 @@ li{
     color: #dee2e6;
     background-color: #00DBDE;
     background-image: linear-gradient(90deg,#FC00FF 0%, #00DBDE 100%);
+}
+.btn-lvl-2{
+    font-family: 'Roboto-Medium';
+    font-size: 1.1em;
+    color: #1a1e21;
+    transition: 1s;
+}
+.btn-lvl-2:hover{
+    font-family: 'Roboto-Medium';
+    font-size: 1.1em;
+    color: #0a53be;
 }
 .social-icon{
     justify-content: center;
@@ -105,6 +118,7 @@ li{
     padding-left: 10%;
     display: flex;
 }
+
 .title-info{
     font-size: 2em;
     font-family: 'Roboto-Medium';
@@ -126,8 +140,43 @@ About-me
 {
     padding-top: 15%
 }
-.img-sfg{
-    font-size: 50%;
+.about-me img{
+    height: 80%;
+}
+
+
+/*
+Service
+ */
+
+.card-body-service{
+    margin: 3em 10px 3em 10px;
+    padding: 2em 10px 2em 10px;
+    background: #f7f7f7;
+    text-align: center;
+    transition: 1s;
+}
+.card-body-service:hover{
+    background: #007bff;
+}
+.card-body-service:hover .text-lvl-5{
+    color: #ffffff;
+}
+.card-body-service:hover p{
+    color: #ffffff;
+}
+.card-body-service:hover .btn-lvl-2{
+    color: #ffffff;
+}
+.card-body-service img{
+    width: 25%;
+}
+
+/*
+portfolio
+*/
+.portfolio{
+    margin-top: 10%;
 }
 
 .bg-gradient-1{

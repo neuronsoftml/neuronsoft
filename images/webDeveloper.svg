@@ -1,0 +1,61 @@
+<svg width="504" height="504" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_1" fill="#84dbff" r="252" cy="252" cx="252"/>
+  <rect id="svg_2" fill="#FFFFFF" height="315" width="256.4" y="94.5" x="123.8"/>
+  <rect id="svg_3" fill="#CED5E0" height="26.2" width="256.4" y="94.5" x="123.8"/>
+  <rect id="svg_4" fill="#84DBFF" height="63.9" width="256.4" y="165.5" x="123.8"/>
+  <rect id="svg_5" fill="#CED5E0" height="26.2" width="256.4" y="383.3" x="123.8"/>
+  <g id="svg_6">
+   <rect id="svg_7" fill="#324A5E" height="22.1" width="38.5" y="132" x="123.8"/>
+   <rect id="svg_8" fill="#324A5E" height="22.1" width="38.5" y="132" x="178.3"/>
+   <rect id="svg_9" fill="#324A5E" height="22.1" width="38.5" y="132" x="232.8"/>
+   <rect id="svg_10" fill="#324A5E" height="22.1" width="38.5" y="132" x="287.2"/>
+   <rect id="svg_11" fill="#324A5E" height="22.1" width="38.5" y="132" x="341.7"/>
+  </g>
+  <rect id="svg_12" fill="#54C0EB" height="58.4" width="63" y="260.9" x="136.7"/>
+  <rect id="svg_13" fill="#324A5E" height="58.4" width="63" y="260.9" x="220.5"/>
+  <rect id="svg_14" fill="#F9B54C" height="58.4" width="63" y="260.9" x="304.3"/>
+  <g id="svg_15">
+   <circle id="svg_16" fill="#83898E" r="6.1" cy="244.7" cx="227.6"/>
+   <circle id="svg_17" fill="#83898E" r="6.1" cy="244.7" cx="243.9"/>
+  </g>
+  <circle id="svg_18" fill="#324A5E" r="6.1" cy="244.7" cx="260.1"/>
+  <circle id="svg_19" fill="#83898E" r="6.1" cy="244.7" cx="276.4"/>
+  <rect id="svg_20" fill="#324A5E" height="5.1" width="63" y="330.6" x="136.7"/>
+  <g id="svg_21">
+   <rect id="svg_22" fill="#CED5E0" height="5.1" width="63" y="349" x="136.7"/>
+   <rect id="svg_23" fill="#CED5E0" height="5.1" width="34.4" y="367.4" x="136.7"/>
+  </g>
+  <rect id="svg_24" fill="#2C9984" height="5.1" width="63" y="330.6" x="220.5"/>
+  <g id="svg_25">
+   <rect id="svg_26" fill="#CED5E0" height="5.1" width="63" y="349" x="220.5"/>
+   <rect id="svg_27" fill="#CED5E0" height="5.1" width="34.4" y="367.4" x="220.5"/>
+  </g>
+  <rect id="svg_28" fill="#FF7058" height="5.1" width="63" y="330.6" x="304.3"/>
+  <g id="svg_29">
+   <rect id="svg_30" fill="#CED5E0" height="5.1" width="63" y="349" x="304.3"/>
+   <rect id="svg_31" fill="#CED5E0" height="5.1" width="34.4" y="367.4" x="304.3"/>
+  </g>
+  <g id="svg_32"/>
+  <g id="svg_33"/>
+  <g id="svg_34"/>
+  <g id="svg_35"/>
+  <g id="svg_36"/>
+  <g id="svg_37"/>
+  <g id="svg_38"/>
+  <g id="svg_39"/>
+  <g id="svg_40"/>
+  <g id="svg_41"/>
+  <g id="svg_42"/>
+  <g id="svg_43"/>
+  <g id="svg_44"/>
+  <g id="svg_45"/>
+  <g id="svg_46"/>
+ </g>
+</svg>
