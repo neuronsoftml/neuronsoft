@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Roboto-Light; /* Имя шрифта */
+    src: url(../fonts/Roboto/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face  {
+    font-family: Roboto-Back; /* Имя шрифта */
+    src: url(../fonts/Roboto/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
+}
+a{
+    color: #1a1e21;
+    text-decoration: none;
+}
+.text-lvl-1{
+    font-family: Roboto-Back;
+    font-size: 3em;
+}
+.nav-link{
+    color: #000000;
+    font-family: Roboto-Back;
+    font-size: 1em;
+}
+.text-lvl-2{}
+.text-lvl-3{}
+.text-lvl-4{}
+.text-lvl-5{
+    font-family: 'Roboto-Back';
+    font-size: 1.5em;
+}
+.text-lvl-6{
+    font-family: 'Roboto-Light';
+    font-size: 2em;
+}
+.logo{
+    color: #1a1e21;
+}
+
+.home{
+    background-image: url("../images/border.jpg");
+}
+
+.banner-content{
+    margin-left: 100px;
+    margin-top: 40%;
+}
+.banner-content-images{
+    margin-top: 20%;
+}
+.banner-content-images img{
+    font-size: 50%;
+}
+
