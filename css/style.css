@@ -182,7 +182,7 @@ Service
     padding: 2em 10px 2em 10px;
     background: #f7f7f7;
     text-align: center;
-    transition: 1s;
+    transition: 0.5s;
 }
 .card-body-service:hover{
     background: #007bff;
@@ -217,9 +217,9 @@ portfolio
 }
 .link-portfolio a img
 {
-    -moz-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
-    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    -o-transition: all 0.8s ease-out;
+    -webkit-transition: all 0.8s ease-out;
     width: 100%;
     height: 250px;
     object-fit: cover;
@@ -234,10 +234,70 @@ portfolio
     background: #FFFFFF;
 }
 
+
+
+/*
+contact
+ */
+
+.contact{
+    padding-top: 10%;
+}
+.contact-form{
+    position: relative;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.contact-form input{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+}
+.contact-form label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+}
+.contact-form label::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    bottom: -1px;
+    border-bottom: 3px solid #007bff;
+    transform: translateX(-100%);
+    transition:  transform 0.3s ease;
+}
+.contact-name{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition:  all 0.3s ease;
+}
+.contact-form input:focus + .label-input  .content-name,
+.contact-form input:valid + .label-input  .content-name{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #007bff;
+}
+.contact-form input:focus + .label-input::after,
+.contact-form input:valid + .label-input::after{
+transform: translateX(0%);
+}
+
 .footer{
     margin-top: 15%;
     background: #1a1e21;
 }
+
 
 .bg-gradient-1{
     background-color: #00DBDE;
