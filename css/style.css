@@ -73,6 +73,30 @@ li{
     color: #0a53be;
 
 }
+.btn-phone img{
+    height: 60px;
+    padding: 0px 10px 10px 10px;
+    transition: 1s;
+}
+.btn-email img{
+    height: 60px;
+    padding: 0px 10px 10px 10px;
+    transition: 1s;
+}
+.btn-github img{
+    height: 60px;
+    padding: 0px 10px 10px 10px;
+    transition: 1s;
+}
+.btn-programmer img{
+    height: 80px;
+    padding: 0px 10px 10px 10px;
+    transition: 1s;
+}
+
+.secret-list{
+    display: none;
+}
 .social-icon{
     justify-content: center;
     font-size: 1.5em;
@@ -100,7 +124,7 @@ li{
 .logo{
     color: #1a1e21;
     font-family: 'Roboto-Back';
-    font-size: 2.1em;
+    font-size: 1.9em;
 }
 
 .home{
