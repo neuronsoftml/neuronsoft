@@ -1,6 +1,7 @@
 /*
 Оброник зміна фона при скроле
  */
+/*
 $(document).ready(function () {
     $(window).scroll(function(){
         var height = $(window).scrollTop();
@@ -17,9 +18,9 @@ $(document).ready(function () {
             $('.scrolled').removeClass('bg-gradient-1');
         }
     });
-    /*
+
 Обробник дії клік по бургеру
- */
+
     var colBtnClick = 0;
 
     $('.menu-btn').on('click', function(){
@@ -27,9 +28,7 @@ $(document).ready(function () {
 
         if(btnClick == 1)
         {
-            /*
-                Откриваем меню
-             */
+
             $('.menu').css('display','block');
             $('.scrolled').addClass('bg-gradient-1');
             colBtnClick = 1;
@@ -37,12 +36,12 @@ $(document).ready(function () {
 
         if(btnClick == 2)
         {
-            /*
-                Закриваем меню
-             */
+
             $('.menu').css('display','none');
             $('.scrolled').removeClass('bg-gradient-1');
             colBtnClick = 0;
         }
     });
 });
+*/
+
