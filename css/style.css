@@ -256,6 +256,14 @@ contact
     border: none;
     outline: none;
 }
+.contact-form textarea{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+}
+
 .contact-form label{
     position: absolute;
     bottom: 0px;
@@ -276,6 +284,7 @@ contact
     transform: translateX(-100%);
     transition:  transform 0.3s ease;
 }
+
 .contact-name{
     position: absolute;
     bottom: 5px;
@@ -291,6 +300,18 @@ contact
 .contact-form input:focus + .label-input::after,
 .contact-form input:valid + .label-input::after{
 transform: translateX(0%);
+}
+
+.contact-form textarea:focus + .label-input  .content-name,
+.contact-form textarea:valid + .label-input  .content-name{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #007bff;
+}
+
+.contact-form textarea:focus + .label-input::after,
+.contact-form textarea:valid + .label-input::after{
+    transform: translateX(0%);
 }
 
 .footer{
