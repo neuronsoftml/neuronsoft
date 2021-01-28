@@ -73,6 +73,23 @@ li{
     color: #0a53be;
 
 }
+
+.btn-lvl-3{
+    font-family: 'Roboto-Medium';
+    color: #FFFFFF;
+    font-size: 1em;
+    padding: 10px 20px 10px 20px;
+    background-color: #0153ff;
+    box-shadow: 0 0 30px #0153ff ;/* Параметры тени */
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+.btn-lvl-3:hover{
+    color: #dee2e6;
+    background-color: #0153ff;
+    box-shadow: 0 0 1px #0153ff ;/* Параметры тени */
+}
 .btn-phone img{
     height: 60px;
     padding: 0px 10px 10px 10px;
@@ -121,10 +138,16 @@ li{
     font-size: 1em;
     font-family: 'Roboto-Medium';
 }
+
 .logo{
     color: #1a1e21;
     font-family: 'Roboto-Back';
     font-size: 1.9em;
+}
+.menu-link{
+    margin: 0px 10px 0px 10px;
+    font-family: 'Roboto-Medium';
+    font-size: 1em;
 }
 
 .home{
@@ -166,17 +189,40 @@ About-me
 
 .about-me
 {
-    padding-top: 15%
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 .about-me img{
     height: 80%;
 }
 
+.turnabout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-x: auto;
+    margin-top: 5%;
+}
+.turnabout::-webkit-scrollbar{
+    height: 0px;
+}
+.box{
+    min-width: 150px;
+    margin: 0px 20px 0px 20px;
+}
+.box img{
+     width: 60%;
+    opacity: 0.3;
+ }
 
 /*
 Service
  */
 
+.service{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
 .card-body-service{
     margin: 3em 10px 3em 10px;
     padding: 2em 10px 2em 10px;
@@ -204,7 +250,8 @@ Service
 portfolio
 */
 .portfolio{
-    margin-top: 10%;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 .link-portfolio{
@@ -242,6 +289,7 @@ contact
 
 .contact{
     padding-top: 10%;
+    padding-bottom: 5%;
 }
 .contact-form{
     position: relative;
