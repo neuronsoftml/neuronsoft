@@ -319,7 +319,12 @@ transform: translateX(0%);
     background: #1a1e21;
 }
 
-
+ .copyright{
+    color: #fff;
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    justify-content: center;
+ }
 .bg-gradient-1{
     background-color: #00DBDE;
     background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
