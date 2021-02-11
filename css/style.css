@@ -71,7 +71,6 @@ li{
     font-family: 'Roboto-Medium';
     font-size: 1.1em;
     color: #0a53be;
-
 }
 
 .btn-lvl-3{
@@ -88,6 +87,23 @@ li{
 .btn-lvl-3:hover{
     color: #dee2e6;
     background-color: #0153ff;
+    box-shadow: 0 0 1px #0153ff ;/* Параметры тени */
+}
+
+.btn-lvl-4{
+    font-family: 'Roboto-Medium';
+    color: #FFFFFF;
+    font-size: 1em;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    box-shadow: 0 0 30px #0153ff ;/* Параметры тени */
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+.btn-lvl-4:hover{
+    color: #dee2e6;
+    background-color: black;
     box-shadow: 0 0 1px #0153ff ;/* Параметры тени */
 }
 .btn-phone img{
@@ -169,6 +185,15 @@ li{
     padding-left: 10%;
     display: flex;
 }
+.info{
+    background: #FFFFFF;
+    margin-left-left: 50%;
+    margin-right: 50%;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+
+}
 
 .title-info{
     font-size: 2em;
@@ -200,27 +225,21 @@ About-me
     display: flex;
     flex-direction: row;
     justify-content: center;
-    overflow-x: auto;
     margin-top: 5%;
 }
-.turnabout::-webkit-scrollbar{
-    height: 0px;
+.turnabout .col img{
+    width: 80px;
 }
-.box{
-    min-width: 150px;
-    margin: 0px 20px 0px 20px;
-}
-.box img{
-     width: 60%;
-    opacity: 0.3;
- }
+
+
+
 
 /*
 Service
  */
 
 .service{
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
 }
 .card-body-service{
@@ -258,30 +277,21 @@ portfolio
     overflow:hidden;
     margin: 10px 10px 5px 5px;
     transition: 1s;
+    background-color: #0093E9;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    border-radius: 10px;
+
 }
 .link-portfolio:hover{
     box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Параметры тени */
 }
 .link-portfolio a img
 {
-    -moz-transition: all 0.8s ease-out;
-    -o-transition: all 0.8s ease-out;
-    -webkit-transition: all 0.8s ease-out;
     width: 100%;
-    height: 250px;
+    height: 100%;
     object-fit: cover;
 }
-.link-portfolio a img:hover
-{
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-}
-.link-portfolio:hover  .card-body{
-    background: #FFFFFF;
-}
-
-
 
 /*
 contact
@@ -362,6 +372,50 @@ transform: translateX(0%);
     transform: translateX(0%);
 }
 
+.banner-defold{
+    background-image:  url("../images/common-banner.jpg");
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.description-text{
+    font-family: 'Roboto-Light';
+    font-size: 1.1em;
+    color: #FFFFFF;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+.title-stage{
+    font-family: 'Roboto-Back';
+    font-size: 2em;
+    color: black;
+}
+.number-stage{
+    font-family: 'Roboto-Back';
+    font-size: 3em;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+
+}
+.express-contact{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.content-stage{
+    display:  flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
 .footer{
     margin-top: 15%;
     background: #1a1e21;
@@ -377,4 +431,41 @@ transform: translateX(0%);
     background-color: #00DBDE;
     background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 }
+.bg-gradient-2{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.bg-gradient-3{
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
 
+@media (max-width: 576px)  {
+    .home{
+        background: none;
+    }
+    .text-lvl-1{
+        font-size: 2.5em;
+    }
+    .nav-item .btn-lvl-3{
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+    }
+    .turnabout{
+        display: none;
+    }
+    .description-info{
+        font-size: 1em;
+    }
+    .description-text{
+        margin: 0px;
+    }
+    .banner-defold{
+        margin-top: 35%;
+    }
+    .turnabout {
+        display: none;
+    }
+    .img-sfg{
+        display: none;
+    }
+
+}
